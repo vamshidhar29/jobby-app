@@ -1,0 +1,46 @@
+.headers-container {
+  background-color: #272727;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.web-logo {
+  height: 40px;
+  width: 150px;
+}
+
+.links-container {
+  display: flex;
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.link-class {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.links-items {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.logout-btn {
+  background-color: #4f46e5;
+  font-size: 18px;
+  color: #ffffff;
+  height: 40px;
+  width: 150px;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

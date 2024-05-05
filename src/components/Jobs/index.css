@@ -1,0 +1,170 @@
+.jobs-main-bg {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.jobd-body-bg-container {
+  display: flex;
+  padding: 20px;
+}
+
+.profile-background-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-name {
+  color: #6366f1;
+  font-size: 25px;
+}
+
+.retry-profile-btn {
+  background-color: #4f46e5;
+  color: #ffffff;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.jobs-body-first-container {
+  width: 30vw;
+  margin-right: 20px;
+}
+
+.input-head {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.ul-employmentTypes {
+  list-style-type: none;
+  padding-left: 0px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.jobs-body-second-container {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+}
+
+.search-input-container {
+  display: flex;
+  width: 400px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.search-ele {
+  width: 370px;
+  height: 40px;
+  background-color: transparent;
+  border: solid 1px #f1f5f9;
+  outline: none;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.search-icon {
+  height: 40px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.jobs-card {
+  background-color: #272727;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card-company-logo-container {
+  display: flex;
+}
+
+.company-logo-card {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
+
+.company-title {
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.card-company-title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-location-salary-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-betweeen;
+  width: 60vw;
+}
+
+.card-location-type-container {
+  display: flex;
+}
+
+.hr-card {
+  width: 55vw;
+  color: #ffffff;
+}
+
+.package-element {
+  align-self: flex-end;
+  padding-left: 42vw;
+}
+
+.nodata-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.notfound-img {
+  height: 300px;
+  width: 300px;
+}
+
+.link-class-card-jobs {
+  text-decoration: none;
+}
+
+.jobsFailure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.retry-btn {
+  background-color: #4f46e5;
+  color: #ffffff;
+  height: 40px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.ul-jobslist {
+  list-style-type: none;
+  margin-left: 0px;
+}
